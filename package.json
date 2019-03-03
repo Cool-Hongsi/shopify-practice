@@ -1,0 +1,19 @@
+{
+  "name": "tech_gointegration",
+  "version": "1.0.0",
+  "description": "technical test",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "author": "Sungjun Hong",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16",
+    "shopify-api-node": "^2.18.1"
+  }
+}
